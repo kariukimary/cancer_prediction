@@ -3,7 +3,7 @@ import pickle
 import mysql.connector
 
 # Load the trained model
-model = pickle.load(open('/home/mary/projects/fourth_year project/cancer_stage.pkl', 'rb'))
+model = pickle.load(open('cancer_stage.pkl', 'rb'))
 
 # Function to connect to MySQL database
 def connect_to_database():
