@@ -3,7 +3,7 @@ import pickle
 # import staging
 from streamlit_extras.switch_page_button import switch_page
 
-model = pickle.load(open('/home/mary/projects/fourth_year project/diagnose.pkl', 'rb'))
+model = pickle.load(open('diagnoses2.pkl', 'rb'))
 
 def cancer():
     st.title("Breast Cancer Prediction")
